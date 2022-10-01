@@ -24,3 +24,5 @@
 ├───app.js
 └───README.md
 ```
+
+#### Diory Pribadi Sinaga
