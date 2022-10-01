@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container p-3">
+        <h1>Cek Prima/Genap</h1>
+        <div style="width: 45%;" class="form">
+            <input class="form-control mb-2" type="text" name="name" id="bilangan">
+            <div class="d-flex">
+                <button onclick="KlikGenap()" class="form-control btn btn-primary" type="submit">CekGenap</button>
+                <button onclick="KlikPrima()" class="mx-1 form-control btn btn-success" type="submit">CekPrima</button>
+            </div>
+        </div>
+        <h2>Hasil</h2>
+        <h2 style="color:rebeccapurple " class="hasil"></h2>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
